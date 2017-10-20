@@ -29,5 +29,12 @@ namespace CursoNET.Models
         {
             return new ApplicationDbContext();
         }
+
+        public IDbSet<Video> Videos { get; set; }
+        public IDbSet<Song> Songs { get; set; }
+        public IDbSet<SongGenre> SongGenres { get; set; }
+        public IDbSet<VideoGenre> VideoGenres { get; set; }
+        public IDbSet<Author> Authors { get; set; }
+
     }
 }
