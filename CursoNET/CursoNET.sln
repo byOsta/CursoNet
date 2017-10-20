@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoNET", "CursoNET\CursoNET.csproj", "{90DB6AAD-DEB5-44BC-A841-82C18AE293BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoNET.Tests", "CursoNET.Tests\CursoNET.Tests.csproj", "{E7F1DFE3-FA72-4134-A16D-CDF07270602E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90DB6AAD-DEB5-44BC-A841-82C18AE293BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DB6AAD-DEB5-44BC-A841-82C18AE293BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DB6AAD-DEB5-44BC-A841-82C18AE293BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DB6AAD-DEB5-44BC-A841-82C18AE293BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F1DFE3-FA72-4134-A16D-CDF07270602E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F1DFE3-FA72-4134-A16D-CDF07270602E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F1DFE3-FA72-4134-A16D-CDF07270602E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F1DFE3-FA72-4134-A16D-CDF07270602E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A8784D3-17E5-40CC-A341-A70883413D43}
+	EndGlobalSection
+EndGlobal
