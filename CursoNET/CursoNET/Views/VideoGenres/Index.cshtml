@@ -1,0 +1,14 @@
+﻿@model IEnumerable<CursoNET.Models.VideoGenre>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var videoGenre in Model)
+{
+    <p>Id: @videoGenre.Id</p>
+    <p>Name: @videoGenre.Name</p>
+}
+
